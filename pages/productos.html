@@ -4,172 +4,168 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/estilos3.css">  
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/footers/">
+    <!--
+
     
-    <!--fuente logo--> 
+    <link rel="stylesheet" href="css/estilos3.css">  
+    
+    <!--fuente logo
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Josefin+Sans:wght@300;400&family=Karla:ital,wght@0,300;0,400;1,200&display=swap" rel="stylesheet">
-
+    -->
 
     <!--fuente nav-->
+    <!--
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Josefin+Sans:wght@300;400&display=swap" rel="stylesheet">
-    
-    <!--Animaciones-->
+
+    <!--Animaciones
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
-    <!--Fuente íconos-->
+    Fuente íconos
     <script src="https://kit.fontawesome.com/7d6b54520f.js" crossorigin="anonymous"></script>
-   
+    -->
     <title>Productos - Mate's Pages</title>
 
 </head>
 
-<body class="bodyProductos">
-    <header>
-        <div class="logo">
-            <img src="../imágenes/logomejor.com.png" alt="Mate's"class="imagenLogo" id="principio">
-            <h1 class="logoTitulo">MATE'S PAGES</h1>
-        </div>
-        <i class="fas fa-bars"></i>
-        <nav>            
-            <ul class="navegador">
-               <li><a href="../index.html">Inicio</a></li>
-               <li><a href="historia.html">Historia</a></li>
-               <li><a href="productos.html">Productos</a></li>
-               <li><a href="hierbas.html">Hierbas</a></li>
-               <li><a href="contacto.html">Contacto</a></li>                
-            </ul>
-        </nav>  
-    </header>
-
-
-    <!--Imagen principal-->
-    <section class="imagenProductos">
-        <h1>Productos</h1>
-    </section>
-    
-    <!--Productos-->
-    <section class="contenidoProductos">
-
-        <div>
-            <img src="../imágenes/juego-de-mate-cuero.jpg" alt="" width="200" height="200">
-            <h2>Juego de mate de cuero</h2>
-            <h3>$5000</h3>
-            <button>
-                <a href="">Agregar al carrito</a>
-            </button>
-        </div>
-       
-        <div>
-            <img src="../imágenes/mate-camionero.jpg" alt="" width="200" height="200">
-            <h2>Camionero</h2>
-            <h3>$500</h3>
-            <button>
-                <a href="">Agregar al carrito</a>
-            </button>
-        </div>
-     
-        <div>
-            <img src="../imágenes/mate-criollo-de-acero.jpg" alt="" width="200" height="200">
-            <h2>Criollo de acero</h2>
-            <h3>$475</h3>
-            <button>
-                <a href="">Agregar al carrito</a>
-            </button>
-        </div>
-      
-        <div>
-            <img src="../imágenes/mate-uruguayo.jpg" alt="" width="200" height="200">
-            <h2>Uruguayo</h2>
-            <h3>$750</h3>
-            <button>
-                <a href="">Agregar al carrito</a>
-            </button>
-        </div>
-       
-        <div>
-            <img src="../imágenes/mate-vidrio.jpg" alt="" width="200" height="200">
-            <h2>Vidrio</h2>
-            <h3>$250</h3>
-            <button>
-                <a href="">Agregar al carrito</a>
-            </button>
-        </div>
-       
-        <div>
-            <img src="../imágenes/mate-carpincho.jpg" alt="" width="200" height="200">
-            <h2>Mate carpincho</h2>
-            <h3>$850</h3>
-            <button>
-                <a href="">Agregar al carrito</a>
-            </button>
-        </div>
-    </section>
-        
-    <!--Boton Pa arriba-->
-    <section class="botonParriba">
-        <a href="#principio">
-            <img src="../imágenes/pa-arriba.png" alt="Pa arriba" width="45" height="45">
-        </a>
-    </section>
-
-    <footer>
-        <section class="cosasFooter">
-                            
-                <!--Auspiciantes-->
-            <div class="footerAuspiciantes">
-                <div class="footerAuspiciantesTit">
-                    <h2>Auspician</h2>
+<body class="container-sm" style="background-color: rgba(0, 139, 139, 0.1);">
+    <div class="col">
+        <header class="row-sm-2">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Mate's Pages</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="pages/historia.html">Historia</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="pages/productos.html">Productos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="pages/hierbas.html">Hierbas</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="pages/contacto.html">Contactos</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="¿Qué te pinta?" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Buscar</button>
+                      <button type="button" class="btn btn-primary ms-2">Login</button>
+                    </form>
+                  </div>
                 </div>
+              </nav>
+        </header>
+
+
+        <!--Imagen principal-->
+        <section class="p-3">
+
+            <div class="text-center rounded-3 img-fluid d-flex flex-column justify-content-center align-items-center" style="background-image: url(../imágenes/mate-loco.jpg); max-width: 100%; height: 300px; background-position: center;
+            background-size: cover; opacity: 0.7;">
                 
-                <div class="footerAuspicantesLogos">
-                    <img src="../imágenes/logo-amazon.png" alt="Amazon" class="logosRobados">
-                    <img src="../imágenes/logo-american-express.png" alt="American Express" class="logosRobados">
-                    <img src="../imágenes/logo-android.png" alt="Android" class="logosRobados">
-                    <img src="../imágenes/logo-apple.png" alt="Apple" class="logosRobados">
-                    <img src="../imágenes/logo-C.png" alt="C" class="logosRobados">
-                </div>
+                <div class="">
+                    <h2 class="text-success bg-dark">Productos</h2>
                     
-            </div>
+                </div>
+            </div>           
+        </section>
+        <!--Productos-->
+        <section class="container">
+            <div class="row d-flex flex-row justify-content-around mx-auto">
+                <div class="card col-3 col-lg-1 m-3" style="width: 18rem;">
+                    <img src="../imágenes/juego-de-mate-cuero.jpg" class="card-img-top mx-auto" alt="..." width="262px" height="262px">  
+                    <div class="card-body">
+                      <h5 class="card-title">Juego de mate de cuero</h5>
+                      <p class="card-text">$5000</p>
+                      <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
+                </div>
+            
+                <div class="card col-3 col-lg-1 m-3" style="width: 18rem;">
+                    <img src="../imágenes/mate-camionero.jpg" class="card-img-top mx-auto" alt="..." width="262px" height="262px">
+                    <div class="card-body">
+                      <h5 class="card-title">Camionero</h5>
+                      <p class="card-text">$500</p>
+                      <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
+                </div>
+            
+                <div class="card col-3 col-lg-1 m-3" style="width: 18rem;">
+                    <img src="../imágenes/mate-criollo-de-acero.jpg" class="card-img-top mx-auto" alt="..." width="262px" height="262px">
+                    <div class="card-body">
+                      <h5 class="card-title">Mate de acero</h5>
+                      <p class="card-text">$475</p>
+                      <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
+                </div>
 
-                <!--Enlaces a redes sociales-->        
-            <div class="footerRedes">
-                <h2>Buscanos</h2>
-                <ul>
-                    <li> <a href="https://www.facebook.com/" target="_blank">
-                            <img src="../imágenes/logo-facebook.jpg" alt="Facebook" width="35" height="35">
-                         </a> </li>
-                    <li> <a href="https://www.twitch.tv/" target="_blank">
-                            <img src="../imágenes/twitch-logo-2019.png" alt=""  width="35" height="35">
-                         </a> </li>
-                    <li> <a href="https://www.youtube.com/" target="_blank">
-                            <img src="../imágenes/logo-youtu.jpg" alt="" width="35" height="35">
-                         </a> </li>
-                    <li> <a href="https://twitter.com/?lang=es" target="_blank">
-                            <img src="../imágenes/logo-twitter.png" alt=""  width="35" height="35">
-                         </a> </li>
-                    <li> <a href="https://www.tiktok.com/" target="_blank">
-                            <img src="../imágenes/tiktok-logo.jpg" alt="" width="35" height="35">
-                         </a> </li>
-                    <li>
-                        <a href="https://www.whatsapp.com/?lang=es" target="_blank" >
-                            <img src="../imágenes/logo-wasa.png" alt="" width="35" height="35">
-                        </a></li>
-                </ul>
-                <h2 class="footerContactos">+54 2635 1569988856</h2>
-                <h2 class="footerContactos">matespage@gmail.com</h2>
-                                 
             </div>
+            
+            <div class="row d-flex flex-row justify-content-around mx-auto">
+                <div class="card col-3 col-lg-1 m-3" style="width: 18rem;">
+                    <img src="../imágenes/mate-uruguayo.jpg" class="card-img-top mx-auto" alt="..." width="262px" height="262px">
+                    <div class="card-body">
+                      <h5 class="card-title">Mate Uruguayo</h5>
+                      <p class="card-text">$750</p>
+                      <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
+                </div>
+            
+                <div class="card col-3 col-lg-1 m-3" style="width: 18rem;">
+                    <img src="../imágenes/mate-vidrio.jpg" class="card-img-top mx-auto" alt="..." width="262px" height="262px">
+                    <div class="card-body">
+                      <h5 class="card-title">Mate Vidriado</h5>
+                      <p class="card-text">$250</p>
+                      <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
+                </div>
+            
+                <div class="card col-3 col-lg-1 m-3" style="width: 18rem;">
+                    <img src="../imágenes/mate-carpincho.jpg" class="card-img-top mx-auto" alt="..." width="262px" height="262px">
+                    <div class="card-body">
+                      <h5 class="card-title">Mate carpincho</h5>
+                      <p class="card-text">$850</p>
+                      <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
+                </div>
 
-        </section >
-        
-       <!--Copyright-->
-       <div class="copyright">
-           <h3>Todos los derechos reservados - Copyright 2022</h3>
-       </div>
-    </footer>
+            </div>
+            
+        </section>
+            
+        <!--Boton Pa arriba-->
+        <section class="botonParriba">
+            <a href="#principio">
+                <img src="../imágenes/pa-arriba.png" alt="Pa arriba" width="45" height="45">
+            </a>
+        </section>
+
+        <footer class="footer py-2 text-xs-center">
+           
+            <div class="bg-light p-2 col-lg-1 m-3 text-black container-fluid d-flex flex-row justify-content-between align-items-center" width="100%" height="400px">
+               <p>2022 Company, Inc - Todos los derechos reservados</p>
+               <img src="../imágenes/logomejor.com.png" width="45" height="45"  alt="">
+               <p>matespages@gmail.com</p>
+                
+        </footer>
+    </div>    
 </body>
 </html>
